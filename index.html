@@ -181,7 +181,7 @@ input[type=color] { height:24px; }
 		var staticMode=true;
 		var hideSidebar=false;
 		var noCentering=false;
-		var defaultZoom=0.91666666666667;
+		var defaultZoom=0.5;
 		var defaultDetail='TJ.N.r.b.d.v.j';
 		var defaultBirthName=0;
 		var defaultSurnameFirst=0;
@@ -5630,8 +5630,8 @@ iBHZMZ	^OOTCR	mOOTCR	pOrdem	vArca 3	gf	lEstrela	b22210000	TCapitã	jLeader of Di
 iZT2PN	^BHZMZ	mBHZMZ	pPervinca	vArca 3	b22530914	lEstrela	gf	jPilot, Wasteland Heroine	oAlso known as: Periwinkle Star	r890957985 102 120	sX1GM7
 iGUD9I	^ZT2PN	mBHZMZ	gf	pTriagem	lEstrela	qEstrela	vArca 3	jWasteland Doctor	TDoutora	b22410000	r324282602 98 120
 iTREKR	^USSSK	mYMH37	lDe Main	qDe Main	z1	pCoup	vNimbus	gf
-iZNLRW	^TREKR	mTREKR	lCœur	qCœur	gf	z1	vFancee, Prance	pNouveau
-iKFSCO	^ZNLRW	mZNLRW	lCœur	qCœur	gf	z1	pCiel	vFancee, Prance
+iZNLRW	^TREKR	mTREKR	lNouveau	qNouveau	gf	z1	vFancee, Prance	pCœur
+iKFSCO	^ZNLRW	mZNLRW	lCiel	qCiel	gf	z1	pCœur	vFancee, Prance
 iA2IC3	^KFSCO	mKFSCO	lClair	qClair	pCœur	gf	vFancee, Prance	b22160000	r983636013 110 120	jIndépendance Activist	sW2UG9
 iHUFQ8	^A2IC3	mA2IC3	gf	pDaybreak	vFancee, Prance	jEnclave Officer	TGeneral	r113970296 100 120	b22360000	fW2UG9
 iN6XLV	^HUFQ8	mA2IC3	pArmoured	lHeart	TGeneral	vStratus	jEnclave Officer	gf	b22420000	r211244067 107 120	sV2CQW	fW2UG9
@@ -7519,10 +7519,10 @@ pBJKVX FLKJZ	e2
 1 FAMS @F118@
 1 FAMC @F117@
 0 @I165@ INDI
-1 NAME Nouveau /Cœur/
-2 GIVN Nouveau
-2 SURN Cœur
-2 _MARNM Cœur
+1 NAME Cœur /Nouveau/
+2 GIVN Cœur
+2 SURN Nouveau
+2 _MARNM Nouveau
 1 SEX F
 1 BIRT
 2 PLAC Fancee, Prance
@@ -7530,10 +7530,10 @@ pBJKVX FLKJZ	e2
 1 FAMS @F119@
 1 FAMC @F118@
 0 @I166@ INDI
-1 NAME Ciel /Cœur/
-2 GIVN Ciel
-2 SURN Cœur
-2 _MARNM Cœur
+1 NAME Cœur /Ciel/
+2 GIVN Cœur
+2 SURN Ciel
+2 _MARNM Ciel
 1 SEX F
 1 BIRT
 2 PLAC Fancee, Prance
@@ -8996,16 +8996,15 @@ HNPVD,Sugar Belle,Sugar,,,,Belle,,Female,Y,,,,,,,,,,,,,,,,,,,,,QTBX4,Big Mac (PH
 V1BQ8,Sweetie Belle,Sweetie,,,,Belle,,Female,Y,FKZ7X,&quot;Cookie &quot;&quot;Betty Bouffant&quot;&quot; Crumbles&quot;,R0U1U,&quot;Hondo &quot;&quot;Magnum&quot;&quot; Flanks&quot;,,,,,,,Known,1988,,,,,,,,,G692Y,Scootaloo,Partner,,,,,,V2BEG,,,,,,,,,,,,Ponyville,,,,,,,,,&quot;Head of Public Relations of Stable-Tec, Singer, Overmare of Stable 2&quot;,,,,,
 A6VGR,Director Operative Lightning Blaze,Lightning,,Director Operative,,Blaze,,Female,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RN2LF,,,,,,,,,,,,Thunderhead,,,,,,,,,,,,,,
 BROSC,Colonel Sun Blaze,Sun,,Colonel,,Blaze,,Female,,BLWCP,Sky Marshall General Striking Sunshine,J7ABE,Twas Strong,,,,,,,Known,2252,,,,,,,,,,,,,,,,,,START XJU6U,,,,,,,,,,,Thunderhead,,,,,,,,,Enclave Officer,,,,,
-START,&quot;Spark &quot;&quot;Sparks&quot;&quot; Blitz&quot;,Spark,Sparks,,,Blitz,,Female,,WMVPP,Razor (PH),VUXB3,Missile Rush,Biological,BLWCP,Sky Marshall General Striking Sunshine,,,Adopted,Known,2257,,,,,,,,,XJU6U,Operative Doctor Morning Glory,Partner,,,,,,,BROSC,,,,,,,,,,,Hoofington Sports Arena,,,,,,,,,Enclave Contractor,,,,,
 IT5G1,&quot;Spark &quot;&quot;Sparky&quot;&quot; Blitz&quot;,Spark,Sparky,,,Blitz,Blitz,Female,,M0913,Razor (Serenity),S8EF9,Missile Strike,,,,,,,Known,2271,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Hoofington Wasteland,,,,,,,,,,,,,,
+START,&quot;Spark &quot;&quot;Sparks&quot;&quot; Blitz&quot;,Spark,Sparks,,,Blitz,,Female,,WMVPP,Razor (PH),VUXB3,Missile Rush,Biological,BLWCP,Sky Marshall General Striking Sunshine,,,Adopted,Known,2257,,,,,,,,,XJU6U,Operative Doctor Morning Glory,Partner,,,,,,,BROSC,,,,,,,,,,,Hoofington Sports Arena,,,,,,,,,Enclave Contractor,,,,,
 XRHXS,Apple Bloom,Apple,,,,Bloom,,Female,Y,SIDF7,Pear Butter,WHDLG,Bright Mac,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sweet Apple Acres,,,,,,,,,Head designer and engineer of Stable-Tec,,,,,
 SIDF7,Pear Butter,Pear,,,,Butter,Butter,Female,Y,YMTHK,,RORG1,Grand Pear,,,,,,,,,,,,,,,,,WHDLG,Bright Mac,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,Farmer,,,,,
 T3LNJ,Doctor Master Care,Master,,Doctor,,Care,,Female,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLWCP,,,,,,,,,,,,Neighvarro,,,,,,,,,Enclave Doctor,,,,,
 DCXI4,Doctor Tender Care,Tender,,Doctor,,Care,,Male,,BLWCP,Sky Marshall General Striking Sunshine,T3LNJ,Doctor Master Care,,,,,,,Known,2248,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neighvarro,,,,,,,,,Enclave Field Doctor,,,,,
-A2IC3,Cœur Clair,Cœur,,,,Clair,Clair,Female,,KFSCO,Ciel Cœur,,,,,,,,,Known,2216,,,,,,,,,W2UG9,High Councillor Galestorm,Partner,,,,,,,,,,,,,,,,,,&quot;Fancee, Prance&quot;,,,,,,,,,Indépendance Activist,,,,,
+KFSCO,Cœur Ciel,Cœur,,,,Ciel,Ciel,Female,Y,ZNLRW,Cœur Nouveau,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;Fancee, Prance&quot;,,,,,,,,,,,,,,
+A2IC3,Cœur Clair,Cœur,,,,Clair,Clair,Female,,KFSCO,Cœur Ciel,,,,,,,,,Known,2216,,,,,,,,,W2UG9,High Councillor Galestorm,Partner,,,,,,,,,,,,,,,,,,&quot;Fancee, Prance&quot;,,,,,,,,,Indépendance Activist,,,,,
 FKZ7X,&quot;Cookie &quot;&quot;Betty Bouffant&quot;&quot; Crumbles&quot;,Cookie,Betty Bouffant,,,Crumbles,,Female,Y,,,,,,,,,,,,,,,,,,,,,R0U1U,&quot;Hondo &quot;&quot;Magnum&quot;&quot; Flanks&quot;,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-KFSCO,Ciel Cœur,Ciel,,,,Cœur,Cœur,Female,Y,ZNLRW,Nouveau Cœur,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;Fancee, Prance&quot;,,,,,,,,,,,,,,
-ZNLRW,Nouveau Cœur,Nouveau,,,,Cœur,Cœur,Female,Y,TREKR,Coup De Main,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;Fancee, Prance&quot;,,,,,,,,,,,,,,
 XEJLQ,Lightning Dancer,Lightning,,,,Dancer,,Female,,A6VGR,Director Operative Lightning Blaze,RN2LF,,,,,,,,Known,2244,,,,,,,,,V8FQ6,Lieutenant Dusk,Partner,,,,,,,,,,,,,,,,,,Thunderhead,,,,,,,,,Enclave Soldier,,,,,
 P8YXK,Rainbow Dash,Rainbow,,,,Dash,,Female,Y,NQ4B9,Windy Whistles,XTIWL,Bow Hothoof,,,,,,,Known,1984,,,,Known,2275,,,,,,,,,,,,AC8A4,,,,,,,,,,,,Cloudsdale,,,,,,,,,&quot;Minister of Awesome, Equestrian General, Mare do Well&quot;,,,,,
 KCSHS,Rising Dawn,Rising,,,,Dawn,Dawn,Female,,,,,,,,,,,,Known,2249,5,1,,,,,,,YTGE7,Crystal,Partner,,,,,,,GQUB9,,,,,,,,,,,Stable 99,,,,,,,,,Administration Mare,,,,,
@@ -9028,9 +9027,9 @@ OYZWR,Royal Flush (PH),Royal,,,,Flush (PH),Flush (PH),Female,Y,HZIRE,Aces (PH),D
 C5OBD,Straight Flush (PH),Straight,,,,Flush (PH),,Female,Y,LEYIB,52 Pick Up (PH),ADD0A,,,,,,,,,,,,,,,,,,,,,,,,,,C17QF,,,,,,,,,,,,Stable 99,,,,,,,,,Head of Security,,,,,
 N3JIV,Royal Flush (Serenity),Royal,,,,Flush (Serenity),Flush (Serenity),Female,Y,HZ8MT,Aces (Serenity),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 99,,,,,,,,,Head of Security,,,,,
 X04ID,Straight Flush (Serenity),Straight,,,,Flush (Serenity),Flush (Serenity),Female,Y,XQ93Y,52 Pick Up (Serenity),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 99,,,,,,,,,Head of Security,,,,,
-XJU6U,Operative Doctor Morning Glory,Morning,,Operative Doctor,,Glory,,Female,,I9Q08,Dawn,ANFXF,High Councillor Sky Striker,,,,,,,Known,2255,6,21,,,,,,,START,&quot;Spark &quot;&quot;Sparks&quot;&quot; Blitz&quot;,Partner,,,,,,,BROSC,,,,,,,,,,,Thunderhead,,,,,,,,,Enclave Special Operations,,,,,
-WEI4M,Morning Glory,Morning,,,,Glory,,Female,,,,,,,,,,,,Known,2260,6,21,,,,,,,,,,,,,,,BLWCP,,,,,,,,,,,,Thunderhead,,,,,,,,,&quot;Dashite, Wasteland Heroine&quot;,,,,,
 Y19KX,&quot;Doctor Morning &quot;&quot;Sunrise Phoenix&quot;&quot; Glory&quot;,Morning,Sunrise Phoenix,Doctor,,Glory,Glory,Female,,,,,,,,,,,,Known,2255,6,21,,,,,,,FN81A,Blackjack,Partner,,,,,,,,,,,,,,,,,,Thunderhead,,,,,,,,,Dashite / Wasteland Heroine,,,,,
+WEI4M,Morning Glory,Morning,,,,Glory,,Female,,,,,,,,,,,,Known,2260,6,21,,,,,,,,,,,,,,,BLWCP,,,,,,,,,,,,Thunderhead,,,,,,,,,&quot;Dashite, Wasteland Heroine&quot;,,,,,
+XJU6U,Operative Doctor Morning Glory,Morning,,Operative Doctor,,Glory,,Female,,I9Q08,Dawn,ANFXF,High Councillor Sky Striker,,,,,,,Known,2255,6,21,,,,,,,START,&quot;Spark &quot;&quot;Sparks&quot;&quot; Blitz&quot;,Partner,,,,,,,BROSC,,,,,,,,,,,Thunderhead,,,,,,,,,Enclave Special Operations,,,,,
 J88JR,Lunar Glow,Lunar,,,,Glow,Glow,Female,,GQUB9,Gin Rummy (Serenity),GHMJZ,B-20 (Serenity),,,,,,,Known,2257,7,21,,,,,,,FLKJZ,Go Fish,Partner,,,,,,,,,,,,,,,,,,Stable 99,,,,,,,,,Entertainment Mare,,,,,
 QWMME,Doctor Twilight Glow,Twilight,,Doctor,,Glow,Glow,Female,Y,B6M27,Twilight Sparkle (PH),OWR69,Periwinkle (PH-Non Canon),,,,,,,Known,2015,,,,,,,,,UZ9CK,Captain Tenebrous Star,Partner,,,,,,,,,,,,,,,,,,Manehattan,,,,,,,,,Ministry of Awesome Researcher,,,,,
 N6XLV,General Armoured Heart,Armoured,,General,,Heart,,Female,,A2IC3,Cœur Clair,W2UG9,High Councillor Galestorm,,,,,,,Known,2242,,,,,,,,,V2CQW,Colonel Lumina Aurora Solaire,Partner,,,,,,,,,,,,,,,,,,Stratus,,,,,,,,,Enclave Officer,,,,,
@@ -9049,6 +9048,7 @@ WHDLG,Bright Mac,Bright,,,,Mac,Mac,Male,Y,FJRFE,Granny Smith,SN1EN,,,,,,,,,,,,,,
 QTBX4,Big Mac (PH),Big,,,,Mac (PH),Mac (PH),Male,Y,SIDF7,Pear Butter,WHDLG,Bright Mac,,,,,,,,,,,,,,,,,HNPVD,Sugar Belle,Partner,,,,,,B6M27,,,,,,,,,,,,Sweet Apple Acres,,,,,,,,,Leader of the Macintosh Marauders,,,,,
 TIZPA,Big Mac (Serenity),Big,,,,Mac (Serenity),Mac (Serenity),Male,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FFA0P,,,,,,,,,,,,Sweet Apple Acres,,,,,,,,,Leader of The Macintosh Marauders,,,,,
 RBJBF,Sparkling Moonshine,Sparkling,,,,Moonshine,,Female,,BLWCP,Sky Marshall General Striking Sunshine,APV1G,Sovereign General Star Nova,,,,,,,Known,2260,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neighvarro,,,,,,,,,,,,,,
+ZNLRW,Cœur Nouveau,Cœur,,,,Nouveau,Nouveau,Female,Y,TREKR,Coup De Main,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;Fancee, Prance&quot;,,,,,,,,,,,,,,
 APV1G,Sovereign General Star Nova,Star,,Sovereign General,,Nova,,Female,,,,,,,,,,,,Known,,,,,,,,,,,,,,,,,,,BLWCP,,,,,,,,,,,,,,,,,,,,Enclave Officer,,,,,
 Q1LW0,Heart Of Freedom,Heart,,,,Of Freedom,,Male,,,,,,,,,,,,Known,2257,,,,,,,,,,,,,,,,,BLWCP,,,,,,,,,,,,Stable 99,,,,,,,,,Wasteland Hero,,,,,
 D13F4,Renata Pata De Ferro Magalhães,Renata,,,,Pata De Ferro Magalhães,Pata De Ferro Magalhães,Female,,,,,,,,,,,,Known,2230,,,,,,,,,,,,,,,,,J48J7,,,,,,,,,,,,&quot;Porto Capital, Ausil&quot;,,,,,,,,,Minister of Public Defense,,,,,
@@ -10122,6 +10122,16 @@ Profession:         Enclave Officer
 
 ----------------------------------------------------------------------------
 
+Full name:          Spark &quot;Sparky&quot; Blitz
+Gender:             Female
+Mother:             Razor (Serenity)
+Father:             Missile Strike
+Birth date:         2271
+
+Birth place:        Hoofington Wasteland
+
+----------------------------------------------------------------------------
+
 Full name:          Spark &quot;Sparks&quot; Blitz
 Gender:             Female
 Biological mother:  Razor (PH)
@@ -10133,16 +10143,6 @@ Birth date:         2257
 
 Birth place:        Hoofington Sports Arena
 Profession:         Enclave Contractor
-
-----------------------------------------------------------------------------
-
-Full name:          Spark &quot;Sparky&quot; Blitz
-Gender:             Female
-Mother:             Razor (Serenity)
-Father:             Missile Strike
-Birth date:         2271
-
-Birth place:        Hoofington Wasteland
 
 ----------------------------------------------------------------------------
 
@@ -10186,9 +10186,17 @@ Profession:         Enclave Field Doctor
 
 ----------------------------------------------------------------------------
 
+Full name:          Cœur Ciel
+Gender:             Female (deceased)
+Mother:             Cœur Nouveau
+
+Birth place:        Fancee, Prance
+
+----------------------------------------------------------------------------
+
 Full name:          Cœur Clair
 Gender:             Female
-Mother:             Ciel Cœur
+Mother:             Cœur Ciel
 Partner:            High Councillor Galestorm
 Birth date:         2216
 
@@ -10200,22 +10208,6 @@ Profession:         Indépendance Activist
 Full name:          Cookie &quot;Betty Bouffant&quot; Crumbles
 Gender:             Female (deceased)
 Partner:            Hondo &quot;Magnum&quot; Flanks
-
-----------------------------------------------------------------------------
-
-Full name:          Ciel Cœur
-Gender:             Female (deceased)
-Mother:             Nouveau Cœur
-
-Birth place:        Fancee, Prance
-
-----------------------------------------------------------------------------
-
-Full name:          Nouveau Cœur
-Gender:             Female (deceased)
-Mother:             Coup De Main
-
-Birth place:        Fancee, Prance
 
 ----------------------------------------------------------------------------
 
@@ -10439,16 +10431,13 @@ Profession:         Head of Security
 
 ----------------------------------------------------------------------------
 
-Full name:          Operative Doctor Morning Glory
+Full name:          Doctor Morning &quot;Sunrise Phoenix&quot; Glory
 Gender:             Female
-Mother:             Dawn
-Father:             High Councillor Sky Striker
-Partner:            Spark &quot;Sparks&quot; Blitz
-Partner:            Colonel Sun Blaze
+Partner:            Blackjack
 Birth date:         21 Jun 2255
 
 Birth place:        Thunderhead
-Profession:         Enclave Special Operations
+Profession:         Dashite / Wasteland Heroine
 
 ----------------------------------------------------------------------------
 
@@ -10462,13 +10451,16 @@ Profession:         Dashite, Wasteland Heroine
 
 ----------------------------------------------------------------------------
 
-Full name:          Doctor Morning &quot;Sunrise Phoenix&quot; Glory
+Full name:          Operative Doctor Morning Glory
 Gender:             Female
-Partner:            Blackjack
+Mother:             Dawn
+Father:             High Councillor Sky Striker
+Partner:            Spark &quot;Sparks&quot; Blitz
+Partner:            Colonel Sun Blaze
 Birth date:         21 Jun 2255
 
 Birth place:        Thunderhead
-Profession:         Dashite / Wasteland Heroine
+Profession:         Enclave Special Operations
 
 ----------------------------------------------------------------------------
 
@@ -10644,6 +10636,14 @@ Father:             Sovereign General Star Nova
 Birth date:         2260
 
 Birth place:        Neighvarro
+
+----------------------------------------------------------------------------
+
+Full name:          Cœur Nouveau
+Gender:             Female (deceased)
+Mother:             Coup De Main
+
+Birth place:        Fancee, Prance
 
 ----------------------------------------------------------------------------
 
