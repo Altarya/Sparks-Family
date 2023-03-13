@@ -181,7 +181,7 @@ input[type=color] { height:24px; }
 		var staticMode=true;
 		var hideSidebar=false;
 		var noCentering=false;
-		var defaultZoom=0.94233333333333;
+		var defaultZoom=1.727;
 		var defaultDetail='TJ.N.r.b.d.v.j.U';
 		var defaultBirthName=0;
 		var defaultSurnameFirst=0;
@@ -5730,7 +5730,7 @@ iTR8EO	^Y3028	go	p?	vNightmare Castle	jMonarch
 iNKCGF	^Y3028	mTR8EO	fORH87	pNemesis	gf	b22400000	vNightmare Castle	jGuard	r517434737 93 120	sY1J1C	Vb
 iIQU6G	^FN81A	mFN81A	fY19KX	b22750000&lt;	pMidnight	lSpade	qSpade	gf	vStar House	jStudent	r214885902 89 120
 iZ443M	^UKPZN	go	z1	p?
-iD0I36	^UKPZN	mZ443M	fQ90BE	pCelestia	TPrincess	gf	bB00350000	jRetired	z1	r491249262 107 120
+iD0I36	^UKPZN	mZ443M	fQ90BE	pCelestia	TPrincess	gf	bB00350000	jRetired	z1	r491249262 107 120	sVA2O3
 iORH87	^TR8EO	sEPZA9	pAthena	lMoon	qMoon	gf	jLunar Guard	TLieutenant	r514538918 103 120
 iHUAXX	^EPZA9	go	p?	mIJ4TO	fWKDJM	z1
 iIJ4TO	^HUAXX	go	p?	mG61ZI	fI5WCV	z1
@@ -5741,6 +5741,20 @@ iYVWSC	^LPX60	go	z1	p?	mRLN24	fXKR68
 iRLN24	^YVWSC	go	z1	p?	mJU08G	fRAE98
 iJU08G	^RLN24	go	z1	p?	mRM6R0	fUNIW2
 iRM6R0	^JU08G	gf	z1	pHera	vNightmare Castle	jNightmare Castle caretaker	b20050000	d20450000&lt;	r114515606 94 120
+iXIKNS	^UKPZN	mUKPZN	gf	pMoon	lLight	qLight	vCastle of the Two Sisters	jLeader of the Children of the Night	b09820000	z1	d22750000	r521598583 107 120
+iVA2O3	^D0I36	sD0I36	gf	pOctavia	lMelody	qMelody	b19760000	vCanterlot	jMusician, Equestrian Diplomat, Chief of the Serenity Team, Overmare	r519024036 93 120	z1	UStable 13
+iRRVOI	^VA2O3	pVinyl	lScratch	gf	qScratch	z1	b19850000	vManehattan	jDJPON3	r265551903 105 120
+iA5V9I	^RRVOI	mRRVOI	fVA2O3	p?	go	z1
+iUMYO6	^A5V9I	mA5V9I	p?	go	z1
+iA37SF	^UMYO6	mUMYO6	p?	go	z1
+iB03DI	^A37SF	mA37SF	p?	z1	go
+iXUTDN	^B03DI	mB03DI	p?	go	z1
+iDGQ7H	^XUTDN	mXUTDN	z1	p?	go
+iFXMDC	^DGQ7H	mDGQ7H	z1	p?
+iN1THQ	^FXMDC	mFXMDC	p?	go	z1
+iXUC9Z	^N1THQ	mN1THQ	go	z1	p?
+iYR72E	^XUC9Z	mXUC9Z	z1	p?
+iAXMI2	^YR72E	mYR72E	pLirah	lScratch	qScratch	gf	b22560000	vStable 39	jSecurity Mare	r331447364 107 120
 pSTART XJU6U	e1
 pBLWCP WEI4M	e1
 pBLWCP T3LNJ	e1
@@ -5784,6 +5798,7 @@ pUY1GQ ZH28E	e2
 pRZXF4 W9JES	gm
 pRZXF4 WH6HY	e2
 pORH87 TR8EO	e1
+pRRVOI VA2O3	e1
 
 # ...end of FamilyScript
 
@@ -5800,7 +5815,7 @@ pORH87 TR8EO	e1
 1 SOUR Family Echo
 2 WWW http://www.familyecho.com/
 1 FILE My Family
-1 DATE 12 MAR 2023
+1 DATE 13 MAR 2023
 1 DEST ANSTFILE
 1 GEDC
 2 VERS 5.5.1
@@ -7421,6 +7436,7 @@ pORH87 TR8EO	e1
 1 OCCU Ruler of Equestria
 1 NOTE Bio notes: The relationship with Twilight initially started with one of Luna's alter egos.
 1 FAMS @F112@
+1 FAMS @F188@
 1 FAMC @F113@
 0 @I149@ INDI
 1 NAME Twilight /Sparkle (Serenity)/
@@ -8694,6 +8710,7 @@ pORH87 TR8EO	e1
 2 DATE 0035 BC
 1 DEAT Y
 1 OCCU Retired
+1 FAMS @F179@
 1 FAMC @F113@
 0 @I266@ INDI
 1 NAME Athena /Moon/
@@ -8711,56 +8728,56 @@ pORH87 TR8EO	e1
 1 SEX Other
 1 DEAT Y
 1 FAMS @F177@
-1 FAMC @F179@
-0 @I268@ INDI
-1 NAME ?
-2 GIVN ?
-1 SEX Other
-1 DEAT Y
-1 FAMS @F179@
 1 FAMC @F180@
-0 @I269@ INDI
+0 @I268@ INDI
 1 NAME ?
 2 GIVN ?
 1 SEX Other
 1 DEAT Y
 1 FAMS @F180@
 1 FAMC @F181@
-0 @I270@ INDI
+0 @I269@ INDI
 1 NAME ?
 2 GIVN ?
 1 SEX Other
 1 DEAT Y
 1 FAMS @F181@
 1 FAMC @F182@
-0 @I271@ INDI
+0 @I270@ INDI
 1 NAME ?
 2 GIVN ?
 1 SEX Other
 1 DEAT Y
 1 FAMS @F182@
 1 FAMC @F183@
-0 @I272@ INDI
+0 @I271@ INDI
 1 NAME ?
 2 GIVN ?
 1 SEX Other
 1 DEAT Y
 1 FAMS @F183@
 1 FAMC @F184@
-0 @I273@ INDI
+0 @I272@ INDI
 1 NAME ?
 2 GIVN ?
 1 SEX Other
 1 DEAT Y
 1 FAMS @F184@
 1 FAMC @F185@
-0 @I274@ INDI
+0 @I273@ INDI
 1 NAME ?
 2 GIVN ?
 1 SEX Other
 1 DEAT Y
 1 FAMS @F185@
 1 FAMC @F186@
+0 @I274@ INDI
+1 NAME ?
+2 GIVN ?
+1 SEX Other
+1 DEAT Y
+1 FAMS @F186@
+1 FAMC @F187@
 0 @I275@ INDI
 1 NAME Hera
 2 GIVN Hera
@@ -8771,7 +8788,126 @@ pORH87 TR8EO	e1
 1 DEAT Y
 2 DATE AFT 2045
 1 OCCU Nightmare Castle caretaker
-1 FAMS @F186@
+1 FAMS @F187@
+0 @I276@ INDI
+1 NAME Moon /Light/
+2 GIVN Moon
+2 SURN Light
+2 _MARNM Light
+1 SEX F
+1 BIRT
+2 DATE 0982
+2 PLAC Castle of the Two Sisters
+1 DEAT Y
+2 DATE 2275
+1 OCCU Leader of the Children of the Night
+1 FAMC @F188@
+0 @I277@ INDI
+1 NAME Octavia /Melody/
+2 GIVN Octavia
+2 SURN Melody
+2 _MARNM Melody
+1 SEX F
+1 BIRT
+2 DATE 1976
+2 PLAC Canterlot
+1 DEAT Y
+1 BURI
+2 PLAC Stable 13
+1 OCCU Musician, Equestrian Diplomat, Chief of the Serenity Team, Overmare
+1 FAMS @F179@
+1 FAMS @F189@
+0 @I278@ INDI
+1 NAME Vinyl /Scratch/
+2 GIVN Vinyl
+2 SURN Scratch
+2 _MARNM Scratch
+1 SEX F
+1 BIRT
+2 DATE 1985
+2 PLAC Manehattan
+1 DEAT Y
+1 OCCU DJPON3
+1 FAMS @F189@
+0 @I279@ INDI
+1 NAME ?
+2 GIVN ?
+1 SEX Other
+1 DEAT Y
+1 FAMS @F190@
+1 FAMC @F189@
+0 @I280@ INDI
+1 NAME ?
+2 GIVN ?
+1 SEX Other
+1 DEAT Y
+1 FAMS @F191@
+1 FAMC @F190@
+0 @I281@ INDI
+1 NAME ?
+2 GIVN ?
+1 SEX Other
+1 DEAT Y
+1 FAMS @F192@
+1 FAMC @F191@
+0 @I282@ INDI
+1 NAME ?
+2 GIVN ?
+1 SEX Other
+1 DEAT Y
+1 FAMS @F193@
+1 FAMC @F192@
+0 @I283@ INDI
+1 NAME ?
+2 GIVN ?
+1 SEX Other
+1 DEAT Y
+1 FAMS @F194@
+1 FAMC @F193@
+0 @I284@ INDI
+1 NAME ?
+2 GIVN ?
+1 SEX Other
+1 DEAT Y
+1 FAMS @F195@
+1 FAMC @F194@
+0 @I285@ INDI
+1 NAME ?
+2 GIVN ?
+1 DEAT Y
+1 FAMS @F196@
+1 FAMC @F195@
+0 @I286@ INDI
+1 NAME ?
+2 GIVN ?
+1 SEX Other
+1 DEAT Y
+1 FAMS @F197@
+1 FAMC @F196@
+0 @I287@ INDI
+1 NAME ?
+2 GIVN ?
+1 SEX Other
+1 DEAT Y
+1 FAMS @F198@
+1 FAMC @F197@
+0 @I288@ INDI
+1 NAME ?
+2 GIVN ?
+1 DEAT Y
+1 FAMS @F199@
+1 FAMC @F198@
+0 @I289@ INDI
+1 NAME Lirah /Scratch/
+2 GIVN Lirah
+2 SURN Scratch
+2 _MARNM Scratch
+1 SEX F
+1 BIRT
+2 DATE 2256
+2 PLAC Stable 39
+1 OCCU Security Mare
+1 FAMC @F199@
 0 @F1@ FAM
 1 HUSB @I26@
 1 WIFE @I1@
@@ -8944,6 +9080,39 @@ pORH87 TR8EO	e1
 1 CHIL @I252@
 1 CHIL @I253@
 1 CHIL @I254@
+0 @F188@ FAM
+1 WIFE @I148@
+1 CHIL @I276@
+0 @F190@ FAM
+1 WIFE @I279@
+1 CHIL @I280@
+0 @F191@ FAM
+1 WIFE @I280@
+1 CHIL @I281@
+0 @F192@ FAM
+1 WIFE @I281@
+1 CHIL @I282@
+0 @F193@ FAM
+1 WIFE @I282@
+1 CHIL @I283@
+0 @F194@ FAM
+1 WIFE @I283@
+1 CHIL @I284@
+0 @F195@ FAM
+1 WIFE @I284@
+1 CHIL @I285@
+0 @F196@ FAM
+1 WIFE @I285@
+1 CHIL @I286@
+0 @F197@ FAM
+1 WIFE @I286@
+1 CHIL @I287@
+0 @F198@ FAM
+1 WIFE @I287@
+1 CHIL @I288@
+0 @F199@ FAM
+1 WIFE @I288@
+1 CHIL @I289@
 0 @F5@ FAM
 1 WIFE @I205@
 1 CHIL @I2@
@@ -9685,43 +9854,54 @@ pORH87 TR8EO	e1
 1 _CURRENT Y
 1 _PRIMARY Y
 0 @F179@ FAM
+1 HUSB @I277@
+1 WIFE @I265@
+1 _CURRENT Y
+1 _PRIMARY Y
+0 @F180@ FAM
 1 HUSB @I268@
 1 CHIL @I267@
 1 _CURRENT N
 1 _PRIMARY N
-0 @F180@ FAM
+0 @F181@ FAM
 1 HUSB @I269@
 1 CHIL @I268@
 1 _CURRENT N
 1 _PRIMARY N
-0 @F181@ FAM
+0 @F182@ FAM
 1 HUSB @I270@
 1 CHIL @I269@
 1 _CURRENT N
 1 _PRIMARY N
-0 @F182@ FAM
+0 @F183@ FAM
 1 HUSB @I271@
 1 CHIL @I270@
 1 _CURRENT N
 1 _PRIMARY N
-0 @F183@ FAM
+0 @F184@ FAM
 1 WIFE @I272@
 1 CHIL @I271@
 1 _CURRENT N
 1 _PRIMARY N
-0 @F184@ FAM
+0 @F185@ FAM
 1 HUSB @I273@
 1 CHIL @I272@
 1 _CURRENT N
 1 _PRIMARY N
-0 @F185@ FAM
+0 @F186@ FAM
 1 HUSB @I274@
 1 CHIL @I273@
 1 _CURRENT N
 1 _PRIMARY N
-0 @F186@ FAM
+0 @F187@ FAM
 1 WIFE @I275@
 1 CHIL @I274@
+1 _CURRENT N
+1 _PRIMARY N
+0 @F189@ FAM
+1 HUSB @I277@
+1 WIFE @I278@
+1 CHIL @I279@
 1 _CURRENT N
 1 _PRIMARY N
 0 TRLR
@@ -9731,40 +9911,50 @@ pORH87 TR8EO	e1
 
 ID,Full name,Given names,Nickname,Title,Suffix,Surname now,Surname at birth,Gender,Deceased,Mother ID,Mother name,Father ID,Father name,Parents type,Second mother ID,Second mother name,Second father ID,Second father name,Second type,Birth date type,Birth year,Birth month,Birth day,Birth range end,Death date type,Death year,Death month,Death day,Death range end,Partner ID,Partner name,Partner type,Partnership date type,Partnership year,Partnership month,Partnership day,Partnership range end,Ex-partner IDs,Extra partner IDs,Email,Website,Blog,Photo site,Home tel,Work tel,Mobile,Skype,Address,Other contact,Birth place,Death place,Cause of death,Burial place,Burial date type,Burial year,Burial month,Burial day,Burial range end,Profession,Company,Interests,Activities,Bio notes,
 MIMPJ,&quot;&quot;&quot;Caronte&quot;&quot;&quot;,,Caronte,,,,,Female,Y,,,,,,,,,,,,,,,,,,,,,Y2WV4,Estela Skarya,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ZBCG8,?,?,,,,,,,Y,XEEWY,?,,,,,,,,,,,,,,,,,,,,,,,,,,,K5LQX,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
-XEEWY,?,?,,,,,,,Y,ZL26X,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
 F2HF5,?,?,,,,,,,Y,ZBCG8,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
-Z4LCT,?,?,,,,,,,Y,VV7Y6,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
+XEEWY,?,?,,,,,,,Y,ZL26X,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
+ZBCG8,?,?,,,,,,,Y,XEEWY,?,,,,,,,,,,,,,,,,,,,,,,,,,,,K5LQX,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
+VV7Y6,?,?,,,,,,,Y,F2HF5,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
 LMR31,?,?,,,,,,,Y,Z4LCT,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
+Z4LCT,?,?,,,,,,,Y,VV7Y6,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
 ZL26X,?,?,,,,,,,Y,DY763,Applejack,M60EB,&quot;Star Paladin Applesnack &quot;&quot;Steelhooves&quot;&quot;&quot;,,,,,,,Range,2045,,,2046-00-00,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
+NFT9K,?,?,,,,,,Other,Y,LPX60,?,S8413,,,,,,,,,,,,,,,,,,,,,,,,,,YWQJT,,,,,,,,,,,,,,,,,,,,,,,,,,
 EACA9,?,?,,,,,,Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,VQO4A,,,,,,,,,,,,,,,,,,,,,,,,,,
-TR8EO,?,?,,,,,,Other,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ORH87,,,,,,,,,,,,Nightmare Castle,,,,,,,,,Monarch,,,,,
-EPZA9,?,?,,,,,,Other,Y,HUAXX,?,UL4AX,,,,,,,,,,,,,,,,,,ORH87,Lieutenant Athena Moon,Partner,,,,,,,,,,,,,,,,,,Nightmare Castle,,,,,,,,,Monarch,,,,,
+A37SF,?,?,,,,,,Other,Y,UMYO6,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+UMYO6,?,?,,,,,,Other,Y,A5V9I,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 TEY4F,?,?,,,,,,Male,,,,,,,,,,,,,,,,,,,,,,E94SN,?,Partner,,,,,,,,,,,,,,,,,,Neighvarro,,,,,,,,,,,,,,
-E94SN,?,?,,,,,,Female,,,,,,,,,,,,,,,,,,,,,,TEY4F,?,Partner,,,,,,,,,,,,,,,,,,Neighvarro,,,,,,,,,,,,,,
 W1L07,?,?,,,,,,,Y,LMR31,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
+E94SN,?,?,,,,,,Female,,,,,,,,,,,,,,,,,,,,,,TEY4F,?,Partner,,,,,,,,,,,,,,,,,,Neighvarro,,,,,,,,,,,,,,
+LPX60,?,?,,,,,,Other,Y,YVWSC,?,XQ82Q,,,,,,,,,,,,,,,,,,,,,,,,,,S8413,,,,,,,,,,,,,,,,,,,,,,,,,,
 LZA8W,?,?,,,,,,Female,,Q5SC5,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
+ACSRW,?,?,,,,,,Other,Y,ARSLC,?,AEJGO,,,,,,,,,,,,,,,,,,,,,,,,,,QMNOY,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
+K5LQX,?,?,,,,,,Other,Y,ACSRW,?,QMNOY,,,,,,,,,,,,,,,,,,,,,,,,,,ZBCG8,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
+ARSLC,?,?,,,,,,Other,Y,V1BQ8,Sweetie Belle,V2BEG,,,,,,,,,,,,,,,,,,,,,,,,,,AEJGO,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
+YVWSC,?,?,,,,,,Other,Y,RLN24,?,XKR68,,,,,,,,,,,,,,,,,,,,,,,,,,XQ82Q,,,,,,,,,,,,,,,,,,,,,,,,,,
+JU08G,?,?,,,,,,Other,Y,RM6R0,Hera,UNIW2,,,,,,,,,,,,,,,,,,,,,,,,,,RAE98,,,,,,,,,,,,,,,,,,,,,,,,,,
+RLN24,?,?,,,,,,Other,Y,JU08G,?,RAE98,,,,,,,,,,,,,,,,,,,,,,,,,,XKR68,,,,,,,,,,,,,,,,,,,,,,,,,,
 GIYQY,?,?,,,,,,,Y,UT9R8,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
 UT9R8,?,?,,,,,,,Y,IGUXD,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
-K5LQX,?,?,,,,,,Other,Y,ACSRW,?,QMNOY,,,,,,,,,,,,,,,,,,,,,,,,,,ZBCG8,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
-ACSRW,?,?,,,,,,Other,Y,ARSLC,?,AEJGO,,,,,,,,,,,,,,,,,,,,,,,,,,QMNOY,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
-ARSLC,?,?,,,,,,Other,Y,V1BQ8,Sweetie Belle,V2BEG,,,,,,,,,,,,,,,,,,,,,,,,,,AEJGO,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
-IGUXD,?,?,,,,,,,Y,XWMRI,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
-XWMRI,?,?,,,,,,,Y,JRDZ9,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
-Z443M,?,?,,,,,,Other,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q90BE,,,,,,,,,,,,,,,,,,,,,,,,,,
 HZSEK,?,?,,,,,,,Y,ZBCG8,?,K5LQX,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
+B03DI,?,?,,,,,,Other,Y,A37SF,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 V5O0F,?,?,,,,,,,Y,HZSEK,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
 JRDZ9,?,?,,,,,,,Y,V5O0F,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
+IGUXD,?,?,,,,,,,Y,XWMRI,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
+XWMRI,?,?,,,,,,,Y,JRDZ9,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
 Q5SC5,?,?,,,,,,,Y,W1L07,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
-VV7Y6,?,?,,,,,,,Y,F2HF5,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 2,,,,,,,,,,,,,,
-YVWSC,?,?,,,,,,Other,Y,RLN24,?,XKR68,,,,,,,,,,,,,,,,,,,,,,,,,,XQ82Q,,,,,,,,,,,,,,,,,,,,,,,,,,
-HUAXX,?,?,,,,,,Other,Y,IJ4TO,?,WKDJM,,,,,,,,,,,,,,,,,,,,,,,,,,UL4AX,,,,,,,,,,,,,,,,,,,,,,,,,,
+A5V9I,?,?,,,,,,Other,Y,RRVOI,Vinyl Scratch,VA2O3,Octavia Melody,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 IJ4TO,?,?,,,,,,Other,Y,G61ZI,?,I5WCV,,,,,,,,,,,,,,,,,,,,,,,,,,WKDJM,,,,,,,,,,,,,,,,,,,,,,,,,,
-RLN24,?,?,,,,,,Other,Y,JU08G,?,RAE98,,,,,,,,,,,,,,,,,,,,,,,,,,XKR68,,,,,,,,,,,,,,,,,,,,,,,,,,
-JU08G,?,?,,,,,,Other,Y,RM6R0,Hera,UNIW2,,,,,,,,,,,,,,,,,,,,,,,,,,RAE98,,,,,,,,,,,,,,,,,,,,,,,,,,
-NFT9K,?,?,,,,,,Other,Y,LPX60,?,S8413,,,,,,,,,,,,,,,,,,,,,,,,,,YWQJT,,,,,,,,,,,,,,,,,,,,,,,,,,
-LPX60,?,?,,,,,,Other,Y,YVWSC,?,XQ82Q,,,,,,,,,,,,,,,,,,,,,,,,,,S8413,,,,,,,,,,,,,,,,,,,,,,,,,,
+YR72E,?,?,,,,,,,Y,XUC9Z,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EPZA9,?,?,,,,,,Other,Y,HUAXX,?,UL4AX,,,,,,,,,,,,,,,,,,ORH87,Lieutenant Athena Moon,Partner,,,,,,,,,,,,,,,,,,Nightmare Castle,,,,,,,,,Monarch,,,,,
+TR8EO,?,?,,,,,,Other,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ORH87,,,,,,,,,,,,Nightmare Castle,,,,,,,,,Monarch,,,,,
 G61ZI,?,?,,,,,,Other,Y,NFT9K,?,YWQJT,,,,,,,,,,,,,,,,,,,,,,,,,,I5WCV,,,,,,,,,,,,,,,,,,,,,,,,,,
+Z443M,?,?,,,,,,Other,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q90BE,,,,,,,,,,,,,,,,,,,,,,,,,,
+HUAXX,?,?,,,,,,Other,Y,IJ4TO,?,WKDJM,,,,,,,,,,,,,,,,,,,,,,,,,,UL4AX,,,,,,,,,,,,,,,,,,,,,,,,,,
+DGQ7H,?,?,,,,,,Other,Y,XUTDN,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+XUC9Z,?,?,,,,,,Other,Y,N1THQ,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+XUTDN,?,?,,,,,,Other,Y,B03DI,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+N1THQ,?,?,,,,,,Other,Y,FXMDC,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FXMDC,?,?,,,,,,,Y,DGQ7H,?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 DY763,Applejack,Applejack,,,,,,Female,Y,SIDF7,Pear Butter,WHDLG,Bright Mac,,,,,,,Known,1984,,,,,,,,,M60EB,&quot;Star Paladin Applesnack &quot;&quot;Steelhooves&quot;&quot;&quot;,Partner,,,,,,,,,,,,,,,,,,Sweet Apple Acres,,,,,,,,,Minister of Wartime Technology,,,,,
 M60EB,&quot;Star Paladin Applesnack &quot;&quot;Steelhooves&quot;&quot;&quot;,Applesnack,Steelhooves,Star Paladin,,,,Male,Y,,,,,,,,,,,,,,,,Known,2275,,,,DY763,Applejack,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,Steel Ranger,,,,,
 KLNYH,Artemis,Artemis,,,,,,Other,,JRK9G,Princess Tenebra,ZH28E,Winter Ruby,,,,,,,Known,2275,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Nightmare Castle,,,,,,,,,,,,,,
@@ -9777,7 +9967,7 @@ FN81A,Blackjack,Blackjack,,,,,,Female,,EBQ82,Gin Rummy (PH),KYD48,U-20,,,,,,,Kno
 N6NYC,Bottlecap,Bottlecap,,,,,,Female,,,,F3V55,Finders Keepers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Hoofington Wasteland,,,,,,,,,Leader of Megamart / Finder,,,,,
 KTZ7J,Bouilotte,Bouilotte,,,,,,Male,,FN81A,Blackjack,BGYA3,P-21,,JBCDY,Princess Grace,,,Foster,Known,2267,,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;Elysium, Hoofington Wasteland&quot;,,,,,,,,,,,,,,
 HMEH8,Caprice,Caprice,,,,,,Female,,CIRUZ,,F3V55,Finders Keepers,,,,,,,Known,2242,,,,,,,,,,,,,,,,,,FN81A,,,,,,,,,,,Hoofington Wasteland,,,,,,,,,Leader of Flank / Prostitute / Bartender / Finder,,,,,
-D0I36,Princess Celestia,Celestia,,Princess,,,,Female,Y,Z443M,?,Q90BE,,,,,,,,Known,-35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Retired,,,,,
+D0I36,Princess Celestia,Celestia,,Princess,,,,Female,Y,Z443M,?,Q90BE,,,,,,,,Known,-35,,,,,,,,,VA2O3,Octavia Melody,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,Retired,,,,,
 OQP4E,Charity,Charity,,,,,,Female,,,,F3V55,Finders Keepers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Hoofington Wasteland,,,,,,,,,Shop Owner / Crusader,,,,,
 BWE7G,Operative Contrail,Contrail,,Operative,,,,Female,,E94SN,?,TEY4F,?,,,,,,,Known,2237,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neighvarro,,,,,,,,,Enclave Special Operations,,,,,
 YTGE7,Crystal,Crystal,,,,,,Female,,,,,,,,,,,,Known,2230,,,,,,,,,KCSHS,Rising Dawn,Partner,,,,,,,,,,,,,,,,,,Stable 99,,,,,,,,,Head of Research and Development,,,,,
@@ -9860,16 +10050,16 @@ M0913,Razor (Serenity),Razor,,,,(Serenity),(Serenity),Female,,,,,,,,,,,,Known,22
 M4SPB,Steam (Serenity),Steam,,,,(Serenity),,Female,Y,,,,,,,,,,,,,,,,,,,,,GQUB9,Gin Rummy (Serenity),Partner,,,,,,,,,,,,,,,,,,Stable 99,,,,,,,,,Maintenance Mare,,,,,
 PEAKB,Tarot (Serenity),Tarot,,,,(Serenity),(Serenity),Female,Y,FFA0P,Twilight Sparkle (Serenity),TIZPA,Big Mac (Serenity),,XKAPS,Marigold (Serenity),JIA45,Card Trick (Serenity),Adopted,Known,2040,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Hoofington,,,,,,,,,Head of Security of Stable 99,,,,,
 JVUWS,Starshine (Striking),Starshine,,,,(Striking),(Striking),Female,,BLWCP,Sky Marshall General Striking Sunshine,WB54F,Stellar Sky,,,,,,,Known,2256,,,,,,,,,,,,,,,,,,,,,,,,,,,,,New Cloudsdale,,,,,,,,,Student,,,,,
-TY0WN,&quot;Princess Mi &quot;&quot;Cadance&quot;&quot; Amore Cadenza&quot;,Mi,Cadance,Princess,,Amore Cadenza,,Female,Y,,,,,,,,,,,,,,,,,,,,,SPPO8,Shining Armor,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,Crystal Empire Monarch,,,,,
 N3RMA,Princess Mi Amore Cadenza,Mi,,Princess,,Amore Cadenza,,Female,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,X1GM7,,,,,,,,,,,,&quot;Crystal City, Eternal Crystal Empire&quot;,,,,,,,,,E.C.E. Monarch,,,,,
+TY0WN,&quot;Princess Mi &quot;&quot;Cadance&quot;&quot; Amore Cadenza&quot;,Mi,Cadance,Princess,,Amore Cadenza,,Female,Y,,,,,,,,,,,,,,,,,,,,,SPPO8,Shining Armor,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,Crystal Empire Monarch,,,,,
 SPPO8,Shining Armor,Shining,,,,Armor,,Male,Y,EEWLA,Twilight Velvet (PH),W0WTC,Night Light (PH),,,,,,,,,,,,,,,,,TY0WN,&quot;Princess Mi &quot;&quot;Cadance&quot;&quot; Amore Cadenza&quot;,Partner,,,,,,,,,,,,,,,,,,Canterlot,,,,,,,,,Crystal Empire Monarch,,,,,
 V2CQW,Colonel Lumina Aurora Solaire,Lumina,,Colonel,,Aurora Solaire,,Female,,RZXF4,Docteur Etoile Solaire,W9JES,Wind Crusher,,,,,,,Known,2250,5,5,,,,,,,N6XLV,General Armoured Heart,Partner,,,,,,,,,,,,,,,,,,Nimbus,,,,,,,,,Enclave Officer,,,,,
 HNPVD,Sugar Belle,Sugar,,,,Belle,,Female,Y,,,,,,,,,,,,,,,,,,,,,QTBX4,Big Mac (PH),Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 V1BQ8,Sweetie Belle,Sweetie,,,,Belle,,Female,Y,FKZ7X,&quot;Cookie &quot;&quot;Betty Bouffant&quot;&quot; Crumbles&quot;,R0U1U,&quot;Hondo &quot;&quot;Magnum&quot;&quot; Flanks&quot;,,,,,,,Known,1988,,,,,,,,,G692Y,Scootaloo,Partner,,,,,,V2BEG,,,,,,,,,,,,Ponyville,,,,,,,,,&quot;Head of Public Relations of Stable-Tec, Singer, Overmare of Stable 2&quot;,,,,,
 A6VGR,Director Operative Lightning Blaze,Lightning,,Director Operative,,Blaze,,Female,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RN2LF,,,,,,,,,,,,Thunderhead,,,,,,,,,,,,,,
 BROSC,Colonel Sun Blaze,Sun,,Colonel,,Blaze,,Female,,BLWCP,Sky Marshall General Striking Sunshine,J7ABE,Twas Strong,,,,,,,Known,2252,,,,,,,,,,,,,,,,,,START XJU6U,,,,,,,,,,,Thunderhead,,,,,,,,,Enclave Officer,,,,,
-START,&quot;Spark &quot;&quot;Sparks&quot;&quot; Blitz&quot;,Spark,Sparks,,,Blitz,,Female,,WMVPP,Razor (PH),VUXB3,Missile Rush,Biological,BLWCP,Sky Marshall General Striking Sunshine,,,Adopted,Known,2257,6,22,,,,,,,XJU6U,Operative Doctor Morning Glory,Partner,,,,,,,BROSC,,,,,,,,,,,Hoofington Sports Arena,,,,,,,,,Enclave Contractor,,,,,
 IT5G1,&quot;Spark &quot;&quot;Sparky&quot;&quot; Blitz&quot;,Spark,Sparky,,,Blitz,Blitz,Female,,M0913,Razor (Serenity),S8EF9,Missile Strike,,,,,,,Known,2271,6,22,,,,,,,,,,,,,,,,,,,,,,,,,,,Hoofington Wasteland,,,,,,,,,,,,,,
+START,&quot;Spark &quot;&quot;Sparks&quot;&quot; Blitz&quot;,Spark,Sparks,,,Blitz,,Female,,WMVPP,Razor (PH),VUXB3,Missile Rush,Biological,BLWCP,Sky Marshall General Striking Sunshine,,,Adopted,Known,2257,6,22,,,,,,,XJU6U,Operative Doctor Morning Glory,Partner,,,,,,,BROSC,,,,,,,,,,,Hoofington Sports Arena,,,,,,,,,Enclave Contractor,,,,,
 XRHXS,Apple Bloom,Apple,,,,Bloom,,Female,Y,SIDF7,Pear Butter,WHDLG,Bright Mac,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sweet Apple Acres,,,,,,,,,Head designer and engineer of Stable-Tec,,,,,
 TWH50,Rose Blossom,Rose,,,,Blossom,Blossom,Female,,ZYKOI,Wisteria Cerise,GHMJZ,B-20,,,,,,,Known,2266,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 99,,,,,,,,,Security Mare,,,,,
 B610V,Naiê Bonspiritu,Naiê,,,,Bonspiritu,Bonspiritu,Female,,,,,,,,,,,,Known,2205,,,,,,,,,,,,,,,,,NKFU8,,,,,,,,,,,,&quot;Porto Capital, Ausil&quot;,,,,,,,,,Socialist Revolutionary,,,,,
@@ -9924,12 +10114,14 @@ HAU7J,Colonel Autumn Leaf,Autumn,,Colonel,,Leaf,,Male,,,,F3U5T,High Councillor T
 FI1K7,Lieutenant Hard Leaf,Hard,,Lieutenant,,Leaf,,Male,,BLWCP,Sky Marshall General Striking Sunshine,F3U5T,High Councillor Tree Leaf,,,,,,,Known,2250,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neighvarro,,,,,,,,,Enclave Field Officer,,,,,
 F3U5T,High Councillor Tree Leaf,Tree,,High Councillor,,Leaf,,Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLWCP,,,,,,,,,,,,Neighvarro,,,,,,,,,Enclave Politician,,,,,
 FBOFB,Prince Stygius Lethe Acheron,Stygius,,Prince,,Lethe Acheron,,Male,,VA80M,Queen Persephone,Y3028,King Hades,,,,,,,Known,2257,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Nightmare Castle,,,,,,,,,&quot;Guard, Heir&quot;,,,,,
+XIKNS,Moon Light,Moon,,,,Light,Light,Female,Y,UKPZN,Princess Luna,,,,,,,,,Known,982,,,,Known,2275,,,,,,,,,,,,,,,,,,,,,,,,Castle of the Two Sisters,,,,,,,,,Leader of the Children of the Night,,,,,
 W0WTC,Night Light (PH),Night,,,,Light (PH),Light (PH),Male,Y,,,,,,,,,,,,,,,,,,,,,EEWLA,Twilight Velvet (PH),Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 E7W17,Night Light (Serenity),Night,,,,Light (Serenity),,Male,Y,,,,,,,,,,,,,,,,,,,,,SJJX2,Twilight Velvet (Serenity),Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 TJVD4,Cœur Lumineux,Cœur,,,,Lumineux,Lumineux,Female,,N6XLV,General Armoured Heart,V2CQW,Colonel Lumina Aurora Solaire,,,,,,,Known,2268,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Nimbus,,,,,,,,,Student,,,,,
 WHDLG,Bright Mac,Bright,,,,Mac,Mac,Male,Y,FJRFE,Granny Smith,SN1EN,,,,,,,,,,,,,,,,,,SIDF7,Pear Butter,Partner,,,,,,,,,,,,,,,,,,Sweet Apple Acres,,,,,,,,,Farmer,,,,,
 QTBX4,Big Mac (PH),Big,,,,Mac (PH),Mac (PH),Male,Y,SIDF7,Pear Butter,WHDLG,Bright Mac,,,,,,,,,,,,,,,,,HNPVD,Sugar Belle,Partner,,,,,,B6M27,,,,,,,,,,,,Sweet Apple Acres,,,,,,,,,Leader of the Macintosh Marauders,,,,,
 TIZPA,Big Mac (Serenity),Big,,,,Mac (Serenity),Mac (Serenity),Male,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FFA0P,,,,,,,,,,,,Sweet Apple Acres,,,,,,,,,Leader of The Macintosh Marauders,,,,,
+VA2O3,Octavia Melody,Octavia,,,,Melody,Melody,Female,Y,,,,,,,,,,,Known,1976,,,,,,,,,D0I36,Princess Celestia,Partner,,,,,,RRVOI,,,,,,,,,,,,Canterlot,,,Stable 13,,,,,,&quot;Musician, Equestrian Diplomat, Chief of the Serenity Team, Overmare&quot;,,,,,
 ORH87,Lieutenant Athena Moon,Athena,,Lieutenant,,Moon,Moon,Female,,,,,,,,,,,,,,,,,,,,,,EPZA9,?,Late partner,,,,,,TR8EO,,,,,,,,,,,,,,,,,,,,,Lunar Guard,,,,,
 RBJBF,Sparkling Moonshine,Sparkling,,,,Moonshine,,Female,,BLWCP,Sky Marshall General Striking Sunshine,APV1G,Sovereign General Star Nova,,,,,,,Known,2260,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neighvarro,,,,,,,,,,,,,,
 AI97L,Fata Mystica Forte,Fata,,,,Mystica Forte,,Female,,Z902A,Triss Strong,ZH28E,Winter Ruby,,,,,,,Known,2275,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -9955,6 +10147,8 @@ BLI58,Captain River Rush,River,,Captain,,Rush,Rush,Female,Y,BH07D,Doctor Arcane 
 TJGPA,Sky Rush,Sky,,,,Rush,Rush,Female,Y,YDLT3,Sergeant Swift Rush,EF9R6,,,,,,,,,,,,,,,,,,,,,,,,,,AZU1N,,,,,,,,,,,,Thunderhead,,,,,,,,,Enclave Soldier,,,,,
 KHLPG,Operative Sparkle Rush,Sparkle,,Operative,,Rush,,Female,Y,TJGPA,Sky Rush,AZU1N,,,,,,,,,,,,,,,,,,,,,,,,,,FTJKD,,,,,,,,,,,,Thunderhead,,,,,,,,,Enclave Intelligence,,,,,
 YDLT3,Sergeant Swift Rush,Swift,,Sergeant,,Rush,Rush,Female,Y,YGVFW,Lieutenant Jet Rush,G5VL3,,,,,,,,,,,,,,,,,,,,,,,,,,EF9R6,,,,,,,,,,,,Thunderhead,,,,,,,,,Enclave Field Officer,,,,,
+AXMI2,Lirah Scratch,Lirah,,,,Scratch,Scratch,Female,,YR72E,?,,,,,,,,,Known,2256,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stable 39,,,,,,,,,Security Mare,,,,,
+RRVOI,Vinyl Scratch,Vinyl,,,,Scratch,Scratch,Female,Y,,,,,,,,,,,Known,1985,,,,,,,,,,,,,,,,,VA2O3,,,,,,,,,,,,Manehattan,,,,,,,,,DJPON3,,,,,
 X1GM7,&quot;Gleaming &quot;&quot;Buckler&quot;&quot; Shield&quot;,Gleaming,Buckler,,,Shield,,Female,,SJJX2,Twilight Velvet (Serenity),E7W17,Night Light (Serenity),,,,,,,Known,1973,,,,,,,,,ZT2PN,Pervinca Estrela,Partner,,,,,,N3RMA,,,,,,,,,,,,,,,,,,,,,Crown-Princess of the Eternal Crystal Empire,,,,,
 V7R59,Twilight Shield,Twilight,,,,Shield,,Female,Y,DRRCW,Prominence,ZRI6A,,,,,,,,,,,,,,,,,,,,,,,,,,VXVLI,,,,,,,,,,,,New Lunar Commonwealth,,,,,,,,,,,,,,
 Y2WV4,Estela Skarya,Estela,,,,Skarya,,Female,Y,,,,,,,,,,,Known,1950,,,,,,,,,MIMPJ,&quot;&quot;&quot;Caronte&quot;&quot;&quot;,Partner,,,,,,,,,,,,,,,,,,&quot;Thalesia, Ezpassion&quot;,,,,,,,,,Prostitute,,,,,
@@ -10005,18 +10199,18 @@ NQ4B9,Windy Whistles,Windy,,,,Whistles,,Female,Y,,,,,,,,,,,,,,,,,,,,,XTIWL,Bow H
 J71O4,Solar Wind,Solar,,,,Wind,,Female,,BLWCP,Sky Marshall General Striking Sunshine,XAYVJ,Colonel Zephyr,,,,,,,Known,2275,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Neighvarro,,,,,,,,,,,,,,
 VQ3BV,Diretora Etrys Çari Skarya,Etrys,,Diretora,,Çari Skarya,,Female,,Y2WV4,Estela Skarya,MIMPJ,&quot;&quot;&quot;Caronte&quot;&quot;&quot;,,,,,,,Known,1980,,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;Thalesia, Ezpassion&quot;,,,,,,,,,CEO of the EZP Corporation,,,,,
 B8LD1,Doutora Katarya Çari Skarya,Katarya,,Doutora,,Çari Skarya,,Female,,Y2WV4,Estela Skarya,MIMPJ,&quot;&quot;&quot;Caronte&quot;&quot;&quot;,,,,,,,Known,1980,,,,,,,,,,,,,,,,,,,,,,,,,,,,,&quot;Thalesia, Ezpassion&quot;,,,,,,,,,Vice-President of the EZP Corporation,,,,,
-UL4AX,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HUAXX,,,,,,,,,,,,,,,,,,,,,,,,,,
-QMNOY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ACSRW,,,,,,,,,,,,,,,,,,,,,,,,,,
-AEJGO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARSLC,,,,,,,,,,,,,,,,,,,,,,,,,,
-V2BEG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,V1BQ8,,,,,,,,,,,,,,,,,,,,,,,,,,
-XKR68,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RLN24,,,,,,,,,,,,,,,,,,,,,,,,,,
-WKDJM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,IJ4TO,,,,,,,,,,,,,,,,,,,,,,,,,,
-I5WCV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,G61ZI,,,,,,,,,,,,,,,,,,,,,,,,,,
-RAE98,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,JU08G,,,,,,,,,,,,,,,,,,,,,,,,,,
-UNIW2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RM6R0,,,,,,,,,,,,,,,,,,,,,,,,,,
 S8413,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,LPX60,,,,,,,,,,,,,,,,,,,,,,,,,,
 XQ82Q,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,YVWSC,,,,,,,,,,,,,,,,,,,,,,,,,,
+AEJGO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARSLC,,,,,,,,,,,,,,,,,,,,,,,,,,
+QMNOY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ACSRW,,,,,,,,,,,,,,,,,,,,,,,,,,
+V2BEG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,V1BQ8,,,,,,,,,,,,,,,,,,,,,,,,,,
+XKR68,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RLN24,,,,,,,,,,,,,,,,,,,,,,,,,,
+UNIW2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RM6R0,,,,,,,,,,,,,,,,,,,,,,,,,,
+RAE98,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,JU08G,,,,,,,,,,,,,,,,,,,,,,,,,,
+I5WCV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,G61ZI,,,,,,,,,,,,,,,,,,,,,,,,,,
+UL4AX,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HUAXX,,,,,,,,,,,,,,,,,,,,,,,,,,
 YWQJT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NFT9K,,,,,,,,,,,,,,,,,,,,,,,,,,
+WKDJM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,IJ4TO,,,,,,,,,,,,,,,,,,,,,,,,,,
 TJZI2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,IARQM,,,,,,,,,,,,,,,,,,,,,,,,,,
 RGWDR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,JBCDY,,,,,,,,,,,,,,,,,,,,,,,,,,
 CIRUZ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,F3V55,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -10067,7 +10261,7 @@ GS9T6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,YMH37,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 My Family
 
-Plain text downloaded by Spark on 12 Mar 2023.
+Plain text downloaded by Spark on 13 Mar 2023.
 
 This file should be viewed as Unicode (UTF-8) character encoding.
 
@@ -10123,6 +10317,14 @@ Birth place:        Stable 2
 
 Full name:          ?
 Gender:             (Deceased)
+Mother:             ?
+
+Birth place:        Stable 2
+
+----------------------------------------------------------------------------
+
+Full name:          ?
+Gender:             (Deceased)
 Mother:             Applejack
 Father:             Star Paladin Applesnack &quot;Steelhooves&quot;
 Birth date:         2045/6
@@ -10132,40 +10334,31 @@ Birth place:        Stable 2
 ----------------------------------------------------------------------------
 
 Full name:          ?
-Gender:             Male
+Gender:             Other (deceased)
+Mother:             ?
+Father:             S8413
 
 ----------------------------------------------------------------------------
 
 Full name:          ?
-Gender:             Other
-Ex-partner:         Lieutenant Athena Moon
-
-Birth place:        Nightmare Castle
-Profession:         Monarch
+Gender:             Male
 
 ----------------------------------------------------------------------------
 
 Full name:          ?
 Gender:             Other (deceased)
 Mother:             ?
-Father:             UL4AX
-Partner:            Lieutenant Athena Moon
 
-Birth place:        Nightmare Castle
-Profession:         Monarch
+----------------------------------------------------------------------------
+
+Full name:          ?
+Gender:             Other (deceased)
+Mother:             ?
 
 ----------------------------------------------------------------------------
 
 Full name:          ?
 Gender:             Male
-Partner:            ?
-
-Birth place:        Neighvarro
-
-----------------------------------------------------------------------------
-
-Full name:          ?
-Gender:             Female
 Partner:            ?
 
 Birth place:        Neighvarro
@@ -10182,32 +10375,22 @@ Birth place:        Stable 2
 
 Full name:          ?
 Gender:             Female
-Mother:             ?
+Partner:            ?
 
-Birth place:        Stable 2
-
-----------------------------------------------------------------------------
-
-Full name:          ?
-Gender:             (Deceased)
-Mother:             ?
-
-Birth place:        Stable 2
-
-----------------------------------------------------------------------------
-
-Full name:          ?
-Gender:             (Deceased)
-Mother:             ?
-
-Birth place:        Stable 2
+Birth place:        Neighvarro
 
 ----------------------------------------------------------------------------
 
 Full name:          ?
 Gender:             Other (deceased)
 Mother:             ?
-Father:             QMNOY
+Father:             XQ82Q
+
+----------------------------------------------------------------------------
+
+Full name:          ?
+Gender:             Female
+Mother:             ?
 
 Birth place:        Stable 2
 
@@ -10224,24 +10407,8 @@ Birth place:        Stable 2
 
 Full name:          ?
 Gender:             Other (deceased)
-Mother:             Sweetie Belle
-Father:             V2BEG
-
-Birth place:        Stable 2
-
-----------------------------------------------------------------------------
-
-Full name:          ?
-Gender:             (Deceased)
 Mother:             ?
-
-Birth place:        Stable 2
-
-----------------------------------------------------------------------------
-
-Full name:          ?
-Gender:             (Deceased)
-Mother:             ?
+Father:             QMNOY
 
 Birth place:        Stable 2
 
@@ -10249,45 +10416,8 @@ Birth place:        Stable 2
 
 Full name:          ?
 Gender:             Other (deceased)
-
-----------------------------------------------------------------------------
-
-Full name:          ?
-Gender:             (Deceased)
-Mother:             ?
-Father:             ?
-
-Birth place:        Stable 2
-
-----------------------------------------------------------------------------
-
-Full name:          ?
-Gender:             (Deceased)
-Mother:             ?
-
-Birth place:        Stable 2
-
-----------------------------------------------------------------------------
-
-Full name:          ?
-Gender:             (Deceased)
-Mother:             ?
-
-Birth place:        Stable 2
-
-----------------------------------------------------------------------------
-
-Full name:          ?
-Gender:             (Deceased)
-Mother:             ?
-
-Birth place:        Stable 2
-
-----------------------------------------------------------------------------
-
-Full name:          ?
-Gender:             (Deceased)
-Mother:             ?
+Mother:             Sweetie Belle
+Father:             V2BEG
 
 Birth place:        Stable 2
 
@@ -10302,15 +10432,8 @@ Father:             XKR68
 
 Full name:          ?
 Gender:             Other (deceased)
-Mother:             ?
-Father:             WKDJM
-
-----------------------------------------------------------------------------
-
-Full name:          ?
-Gender:             Other (deceased)
-Mother:             ?
-Father:             I5WCV
+Mother:             Hera
+Father:             UNIW2
 
 ----------------------------------------------------------------------------
 
@@ -10322,23 +10445,113 @@ Father:             RAE98
 ----------------------------------------------------------------------------
 
 Full name:          ?
-Gender:             Other (deceased)
-Mother:             Hera
-Father:             UNIW2
+Gender:             (Deceased)
+Mother:             ?
+
+Birth place:        Stable 2
+
+----------------------------------------------------------------------------
+
+Full name:          ?
+Gender:             (Deceased)
+Mother:             ?
+
+Birth place:        Stable 2
+
+----------------------------------------------------------------------------
+
+Full name:          ?
+Gender:             (Deceased)
+Mother:             ?
+Father:             ?
+
+Birth place:        Stable 2
 
 ----------------------------------------------------------------------------
 
 Full name:          ?
 Gender:             Other (deceased)
 Mother:             ?
-Father:             S8413
+
+----------------------------------------------------------------------------
+
+Full name:          ?
+Gender:             (Deceased)
+Mother:             ?
+
+Birth place:        Stable 2
+
+----------------------------------------------------------------------------
+
+Full name:          ?
+Gender:             (Deceased)
+Mother:             ?
+
+Birth place:        Stable 2
+
+----------------------------------------------------------------------------
+
+Full name:          ?
+Gender:             (Deceased)
+Mother:             ?
+
+Birth place:        Stable 2
+
+----------------------------------------------------------------------------
+
+Full name:          ?
+Gender:             (Deceased)
+Mother:             ?
+
+Birth place:        Stable 2
+
+----------------------------------------------------------------------------
+
+Full name:          ?
+Gender:             (Deceased)
+Mother:             ?
+
+Birth place:        Stable 2
+
+----------------------------------------------------------------------------
+
+Full name:          ?
+Gender:             Other (deceased)
+Mother:             Vinyl Scratch
+Father:             Octavia Melody
 
 ----------------------------------------------------------------------------
 
 Full name:          ?
 Gender:             Other (deceased)
 Mother:             ?
-Father:             XQ82Q
+Father:             I5WCV
+
+----------------------------------------------------------------------------
+
+Full name:          ?
+Gender:             (Deceased)
+Mother:             ?
+
+----------------------------------------------------------------------------
+
+Full name:          ?
+Gender:             Other (deceased)
+Mother:             ?
+Father:             UL4AX
+Partner:            Lieutenant Athena Moon
+
+Birth place:        Nightmare Castle
+Profession:         Monarch
+
+----------------------------------------------------------------------------
+
+Full name:          ?
+Gender:             Other
+Ex-partner:         Lieutenant Athena Moon
+
+Birth place:        Nightmare Castle
+Profession:         Monarch
 
 ----------------------------------------------------------------------------
 
@@ -10346,6 +10559,48 @@ Full name:          ?
 Gender:             Other (deceased)
 Mother:             ?
 Father:             YWQJT
+
+----------------------------------------------------------------------------
+
+Full name:          ?
+Gender:             Other (deceased)
+
+----------------------------------------------------------------------------
+
+Full name:          ?
+Gender:             Other (deceased)
+Mother:             ?
+Father:             WKDJM
+
+----------------------------------------------------------------------------
+
+Full name:          ?
+Gender:             Other (deceased)
+Mother:             ?
+
+----------------------------------------------------------------------------
+
+Full name:          ?
+Gender:             Other (deceased)
+Mother:             ?
+
+----------------------------------------------------------------------------
+
+Full name:          ?
+Gender:             Other (deceased)
+Mother:             ?
+
+----------------------------------------------------------------------------
+
+Full name:          ?
+Gender:             Other (deceased)
+Mother:             ?
+
+----------------------------------------------------------------------------
+
+Full name:          ?
+Gender:             (Deceased)
+Mother:             ?
 
 ----------------------------------------------------------------------------
 
@@ -10479,6 +10734,7 @@ Full name:          Princess Celestia
 Gender:             Female (deceased)
 Mother:             ?
 Father:             Q90BE
+Partner:            Octavia Melody
 Birth date:         35 BCE
 
 Profession:         Retired
@@ -11315,20 +11571,20 @@ Profession:         Student
 
 ----------------------------------------------------------------------------
 
-Full name:          Princess Mi &quot;Cadance&quot; Amore Cadenza
-Gender:             Female (deceased)
-Partner:            Shining Armor
-
-Profession:         Crystal Empire Monarch
-
-----------------------------------------------------------------------------
-
 Full name:          Princess Mi Amore Cadenza
 Gender:             Female (deceased)
 Partner:            Gleaming &quot;Buckler&quot; Shield
 
 Birth place:        Crystal City, Eternal Crystal Empire
 Profession:         E.C.E. Monarch
+
+----------------------------------------------------------------------------
+
+Full name:          Princess Mi &quot;Cadance&quot; Amore Cadenza
+Gender:             Female (deceased)
+Partner:            Shining Armor
+
+Profession:         Crystal Empire Monarch
 
 ----------------------------------------------------------------------------
 
@@ -11393,6 +11649,16 @@ Profession:         Enclave Officer
 
 ----------------------------------------------------------------------------
 
+Full name:          Spark &quot;Sparky&quot; Blitz
+Gender:             Female
+Mother:             Razor (Serenity)
+Father:             Missile Strike
+Birth date:         22 Jun 2271
+
+Birth place:        Hoofington Wasteland
+
+----------------------------------------------------------------------------
+
 Full name:          Spark &quot;Sparks&quot; Blitz
 Gender:             Female
 Biological mother:  Razor (PH)
@@ -11404,16 +11670,6 @@ Birth date:         22 Jun 2257
 
 Birth place:        Hoofington Sports Arena
 Profession:         Enclave Contractor
-
-----------------------------------------------------------------------------
-
-Full name:          Spark &quot;Sparky&quot; Blitz
-Gender:             Female
-Mother:             Razor (Serenity)
-Father:             Missile Strike
-Birth date:         22 Jun 2271
-
-Birth place:        Hoofington Wasteland
 
 ----------------------------------------------------------------------------
 
@@ -11960,6 +12216,17 @@ Profession:         Guard, Heir
 
 ----------------------------------------------------------------------------
 
+Full name:          Moon Light
+Gender:             Female (deceased)
+Mother:             Princess Luna
+Birth date:         982
+Death date:         2275
+
+Birth place:        Castle of the Two Sisters
+Profession:         Leader of the Children of the Night
+
+----------------------------------------------------------------------------
+
 Full name:          Night Light (PH)
 Gender:             Male (deceased)
 Partner:            Twilight Velvet (PH)
@@ -12012,6 +12279,18 @@ Partner:            Twilight Sparkle (Serenity)
 
 Birth place:        Sweet Apple Acres
 Profession:         Leader of The Macintosh Marauders
+
+----------------------------------------------------------------------------
+
+Full name:          Octavia Melody
+Gender:             Female (deceased)
+Partner:            Princess Celestia
+Partner:            Vinyl Scratch
+Birth date:         1976
+
+Birth place:        Canterlot
+Burial place:       Stable 13
+Profession:         Musician, Equestrian Diplomat, Chief of the Serenity Team, Overmare
 
 ----------------------------------------------------------------------------
 
@@ -12267,6 +12546,26 @@ Father:             G5VL3
 
 Birth place:        Thunderhead
 Profession:         Enclave Field Officer
+
+----------------------------------------------------------------------------
+
+Full name:          Lirah Scratch
+Gender:             Female
+Mother:             ?
+Birth date:         2256
+
+Birth place:        Stable 39
+Profession:         Security Mare
+
+----------------------------------------------------------------------------
+
+Full name:          Vinyl Scratch
+Gender:             Female (deceased)
+Partner:            Octavia Melody
+Birth date:         1985
+
+Birth place:        Manehattan
+Profession:         DJPON3
 
 ----------------------------------------------------------------------------
 
@@ -12960,6 +13259,10 @@ Profession:         Vice-President of the EZP Corporation
 <IMG WIDTH=0 HEIGHT=0 STYLE="display:none;" ID="image-491249262" SRC="data:image/jpeg;base64,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">
 <IMG WIDTH=0 HEIGHT=0 STYLE="display:none;" ID="image-514538918" SRC="data:image/jpeg;base64,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">
 <IMG WIDTH=0 HEIGHT=0 STYLE="display:none;" ID="image-114515606" SRC="data:image/jpeg;base64,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">
+<IMG WIDTH=0 HEIGHT=0 STYLE="display:none;" ID="image-521598583" SRC="data:image/jpeg;base64,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">
+<IMG WIDTH=0 HEIGHT=0 STYLE="display:none;" ID="image-519024036" SRC="data:image/jpeg;base64,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">
+<IMG WIDTH=0 HEIGHT=0 STYLE="display:none;" ID="image-265551903" SRC="data:image/jpeg;base64,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">
+<IMG WIDTH=0 HEIGHT=0 STYLE="display:none;" ID="image-331447364" SRC="data:image/jpeg;base64,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">
 
 		<INPUT TYPE="hidden" ID="founderid" VALUE="START">
 					
@@ -13633,7 +13936,7 @@ Profession:         Vice-President of the EZP Corporation
 			<TR HEIGHT="8">
 				<TD STYLE="border-top:solid #666666 1px; padding:8px;" VALIGN="middle">
 					<DIV STYLE="float:left;">
-Read-only HTML downloaded by Spark on 12 Mar 2023 &ndash; <a href="#" id="export_show_" class="selbold" onclick="return EES('');">View Tree</a> &ndash; <a href="#" id="export_show_gedcom" onclick="return EES('gedcom');">GEDCOM</a> &ndash; <a href="#" id="export_show_newscript" onclick="return EES('newscript');">FamilyScript</a> &ndash; <a href="#" id="export_show_csv" onclick="return EES('csv');">CSV</a> &ndash; <a href="#" id="export_show_text" onclick="return EES('text');">Plain Text</a>					</DIV>
+Read-only HTML downloaded by Spark on 13 Mar 2023 &ndash; <a href="#" id="export_show_" class="selbold" onclick="return EES('');">View Tree</a> &ndash; <a href="#" id="export_show_gedcom" onclick="return EES('gedcom');">GEDCOM</a> &ndash; <a href="#" id="export_show_newscript" onclick="return EES('newscript');">FamilyScript</a> &ndash; <a href="#" id="export_show_csv" onclick="return EES('csv');">CSV</a> &ndash; <a href="#" id="export_show_text" onclick="return EES('text');">Plain Text</a>					</DIV>
 					<DIV STYLE="float:right;">
 <A HREF="http://www.familyecho.com/" TITLE="Family Echo - Free Online Family Tree Maker"><IMG SRC="data:;base64,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" CLASS="felogo" WIDTH="80" HEIGHT="16" BORDER="0" ALT="Family Echo" ALIGN="ABSBOTTOM"></A> &copy; Familiality 2007-2023 - All rights reserved					</DIV>
 				</TD>
